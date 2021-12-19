@@ -1,0 +1,79 @@
+# Personal App
+# Snap
+USER-AGENT,Snap*,⛩Snap
+DOMAIN-SUFFIX,snapchat.com,⛩Snap
+PROCESS-NAME,Snap,⛩Snap
+DOMAIN-KEYWORD,snap,⛩Snap
+IP-CIDR,54.235.101.0/8,⛩Snap,no-resolve
+# UBER
+DOMAIN-SUFFIX,uber.com,🧱Auto
+DOMAIN-SUFFIX,onelogin.uber.com,🧱Auto
+DOMAIN-SUFFIX,ubertags.com,🧱Auto
+DOMAIN-SUFFIX,uber.com.cn,💊Domestic
+# DiDi Taxi
+DOMAIN-SUFFIX,xiaojukeji.com,💊Domestic
+DOMAIN-SUFFIX,diditaxi.com.cn,💊Domestic
+DOMAIN-SUFFIX,didialift.com,💊Domestic
+DOMAIN-SUFFIX,udache.com,💊Domestic
+PROCESS-NAME,xiaojukeji,💊Domestic
+DOMAIN-KEYWORD,xiaojukeji,💊Domestic
+USER-AGENT,xiaojukeji,💊Domestic
+# Flightradar24
+PROCESS-NAME,flightradar24,🧱Auto
+DOMAIN-KEYWORD,flightradar24,🧱Auto
+# Wechat
+USER-AGENT,WeChat*,💊Domestic
+PROCESS-NAME,WeChat,💊Domestic
+DOMAIN-SUFFIX,weixin.qq.com,💊Domestic
+# Blind
+USER-AGENT,teamblind*,📦Proxy
+DOMAIN-SUFFIX,teamblind.com,📦Proxy
+PROCESS-NAME,teamblind,📦Proxy
+DOMAIN-KEYWORD,teamblind,📦Proxy
+# Musixmatch
+USER-AGENT,Musixmatch*,📦Proxy
+DOMAIN-SUFFIX,musixmatch.com,📦Proxy
+PROCESS-NAME,Musixmatch,📦Proxy
+DOMAIN-KEYWORD,musixmatch,📦Proxy
+DOMAIN-SUFFIX,mxmcdn.net,📦Proxy
+# Hilton
+USER-AGENT,hilton*,📦Proxy
+DOMAIN-SUFFIX,hilton.com,📦Proxy
+PROCESS-NAME,hilton,📦Proxy
+DOMAIN-KEYWORD,hilton,📦Proxy
+# SPG
+USER-AGENT,starwoodhotels*,📦Proxy
+DOMAIN-SUFFIX,starwoodhotels.com,📦Proxy
+PROCESS-NAME,starwoodhotels,📦Proxy
+DOMAIN-KEYWORD,starwoodhotels,📦Proxy
+# Marriott
+USER-AGENT,marriott*,📦Proxy
+DOMAIN-SUFFIX,marriott.com,📦Proxy
+PROCESS-NAME,marriott,📦Proxy
+DOMAIN-KEYWORD,marriott,📦Proxy
+# Gameloft
+USER-AGENT,gameloft*,📦Proxy
+DOMAIN-SUFFIX,eve.gameloft.com,📦Proxy
+PROCESS-NAME,gameloft,📦Proxy
+DOMAIN-KEYWORD,gameloft,📦Proxy
+DOMAIN-SUFFIX,gameloft.com,📦Proxy
+# Thunder
+PROCESS-NAME,Thunder,🍒Direct
+# Bike
+DOMAIN-SUFFIX,ofo.so,💊Domestic // OFO Bike
+DOMAIN-SUFFIX,mobike.com,💊Domestic // Mobike
+# Other Little Things
+USER-AGENT,pokemongo*,📦Proxy
+DOMAIN-SUFFIX,nianticlabs.com,📦Proxy
+PROCESS-NAME,nianticlabs,📦Proxy
+DOMAIN-KEYWORD,nianticlabs,📦Proxy
+IP-CIDR,54.225.162.0/16,📦Proxy,no-resolve
+IP-CIDR,146.148.72.0/8,📦Proxy,no-resolve
+GEOIP,US,⛩Snap,no-resolve
+DOMAIN-SUFFIX,bose.com,📦Proxy
+PROCESS-NAME,bose,📦Proxy
+DOMAIN-KEYWORD,bose,📦Proxy
+DOMAIN-SUFFIX,textnow.com,📦Proxy
+PROCESS-NAME,textnow,📦Proxy
+DOMAIN-KEYWORD,textnow,📦Proxy
+DOMAIN-SUFFIX,free.com.tw,📦Proxy

@@ -1,0 +1,56 @@
+# UBER
+DOMAIN-SUFFIX,uber.com 
+DOMAIN-SUFFIX,onelogin.uber.com 
+DOMAIN-SUFFIX,ubertags.com 
+
+
+# Flightradar24
+PROCESS-NAME,flightradar24 
+DOMAIN-KEYWORD,flightradar24 
+# Blind
+USER-AGENT,teamblind* 
+DOMAIN-SUFFIX,teamblind.com 
+PROCESS-NAME,teamblind 
+DOMAIN-KEYWORD,teamblind 
+# Musixmatch
+USER-AGENT,Musixmatch* 
+DOMAIN-SUFFIX,musixmatch.com 
+PROCESS-NAME,Musixmatch 
+DOMAIN-KEYWORD,musixmatch 
+DOMAIN-SUFFIX,mxmcdn.net 
+# Hilton
+USER-AGENT,hilton* 
+DOMAIN-SUFFIX,hilton.com 
+PROCESS-NAME,hilton 
+DOMAIN-KEYWORD,hilton 
+# SPG
+USER-AGENT,starwoodhotels* 
+DOMAIN-SUFFIX,starwoodhotels.com 
+PROCESS-NAME,starwoodhotels 
+DOMAIN-KEYWORD,starwoodhotels 
+# Marriott
+USER-AGENT,marriott* 
+DOMAIN-SUFFIX,marriott.com 
+PROCESS-NAME,marriott 
+DOMAIN-KEYWORD,marriott 
+# Gameloft
+USER-AGENT,gameloft* 
+DOMAIN-SUFFIX,eve.gameloft.com 
+PROCESS-NAME,gameloft 
+DOMAIN-KEYWORD,gameloft 
+DOMAIN-SUFFIX,gameloft.com 
+# Other Little Things
+USER-AGENT,pokemongo* 
+DOMAIN-SUFFIX,nianticlabs.com 
+PROCESS-NAME,nianticlabs 
+DOMAIN-KEYWORD,nianticlabs 
+IP-CIDR,54.225.162.0/16 
+IP-CIDR,146.148.72.0/8 
+DOMAIN-SUFFIX,bose.com 
+PROCESS-NAME,bose 
+DOMAIN-KEYWORD,bose 
+DOMAIN-SUFFIX,textnow.com 
+PROCESS-NAME,textnow 
+DOMAIN-KEYWORD,textnow 
+DOMAIN-SUFFIX,free.com.tw 
+

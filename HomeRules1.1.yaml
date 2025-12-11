@@ -721,6 +721,12 @@ proxy-groups:
   - 🇺🇸 United States 2086
   - 🇺🇸 United States 2083
   - 🇩🇪 Germany 2085
+  - 🇺🇸 USA Exp 0.2
+  - 🇭🇰 HKG Exp 0.2
+  - 🇭🇰 HKG 1 Home 0.8
+  - 🇭🇰 HKG 2
+  - 🇭🇰 HKG 3
+  
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204

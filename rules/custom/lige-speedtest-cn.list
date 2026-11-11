@@ -1,0 +1,12 @@
+# Converted from SpeedtestChina.yaml for subconverter ruleset= usage
+DOMAIN,4gsuzhou1.speedtest.jsinfo.net.prod.hosts.ooklaserver.net,DIRECT
+DOMAIN,5gzhenjiang.speedtest.jsinfo.net.prod.hosts.ooklaserver.net,DIRECT
+DOMAIN,mobile.shunicomtest.com.prod.hosts.ooklaserver.net,DIRECT
+DOMAIN,cesu-hz.zjtelecom.com.cn,DIRECT
+DOMAIN,cesu-nb.zjtelecom.com.cn,DIRECT
+DOMAIN,speedtest1.online.sh.cn,DIRECT
+DOMAIN,4gsuzhou1.speedtest.jsinfo.net,DIRECT
+DOMAIN,5gzhenjiang.speedtest.jsinfo.net,DIRECT
+DOMAIN,speedtest.jsqiuying.com,DIRECT
+DOMAIN,mobile.shunicomtest.com,DIRECT
+DOMAIN,beijing.unicomtest.com,DIRECT

@@ -1,0 +1,28 @@
+name: sync-ad-rules
+
+on:
+  schedule:
+    - cron: '23 */8 * * *'   # every 8 hours (217heidai upstream refreshes every 8h)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download ad-block lists
+        run: bash sync-ads.sh
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore: sync ad-block rules $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

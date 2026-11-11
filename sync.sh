@@ -412,5 +412,7 @@ else
   fail=1
 fi
 
+bash sync-ads.sh || fail=1
+
 if [ "$fail" -eq 0 ]; then echo "sync ok"; else echo "some downloads failed"; fi
 exit $fail
